@@ -1,0 +1,13 @@
+header:
+    widget_type: label
+    title2: Living room
+    title2_style: "text-align: left; vertical-align: top; font-size: 150%; color: #fff; top: 6px"
+
+clock:
+    widget_type: clock
+    widget_style: "background-color: transparent; border-radius: 0px;"
+    time_style: "font-size: 100%; color: #fff; vertical-align: top; text-align: right"
+    date_style: "height: 0px;"
+
+layout:
+    - spacer(20x1), header(744x40), clock.clock(240x40)

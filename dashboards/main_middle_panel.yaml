@@ -1,0 +1,17 @@
+mediaplayer:
+    widget_type: media_player
+    entity: media_player.livingroom
+
+media:
+    widget_type: navigate
+    title: Media
+    url: http://192.168.1.9:8099
+
+layout:
+    - empty: 120
+    - spacer(20x1), media(120x120)
+    - empty: 140
+    - spacer(20x1), switch.aeotec_zw080_siren_gen5_switch_4_0(120x120), spacer(20x1), input_boolean.security_system(120x120), spacer(20x1), sensor.frontdoorstatus(120x120), spacer(20x1), sensor.backdoorstatus(120x120), spacer(20x1), mediaplayer(260x260)
+    - empty: 140
+    - spacer(20x1), device_tracker.4480eb23f62d(120x120), spacer(20x1), device_tracker.cc29f53ae069(120x120), spacer(20x1), climate.family_room(120x120), spacer(20x1), switch.family_room_lamp(120x120)
+    - empty: 136

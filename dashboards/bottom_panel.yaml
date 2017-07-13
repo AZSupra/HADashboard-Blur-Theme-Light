@@ -1,0 +1,19 @@
+footer:
+    widget_type: label
+    title2: Living room
+    widget_style: "background-color: rgba(0, 0, 0, 0.5); border-radius: 0px;  line-height: 15px; text-align: center; backdrop-filter: blur(30px);"
+    title2_style: "font-size: 150%; color: #aaa; font-weight: 400"
+    title_style: "font-size: 150%; color: #aaa; font-weight: 400"
+    text_style: "font-size: 150%; color: #aaa; font-weight: 400"
+
+home:
+    widget_type: navigate
+    url: http://192.168.1.9:8099
+    widget_style: $dashboard_footer
+    icon_active: fa-home
+    icon_inactive: fa-home
+    icon_active_style: "top: 6px;"
+    icon_inactive_style: "top: 6px;"
+    
+layout:
+    - home(1024x60)
