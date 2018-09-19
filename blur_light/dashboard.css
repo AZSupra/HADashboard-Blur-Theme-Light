@@ -16,7 +16,7 @@ body {
 
 body::after
 {
-  background-image: url(/custom_css/blur1/img/tablet_background2.jpg);
+  background-image: url(/custom_css/blur_light/img/tablet_background2.jpg);
   background-size:cover;
   content: "";
   top: 0;
