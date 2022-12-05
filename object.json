@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "type": "Object",
+    "version": 4.3,
+    "generator": "Blender 2.79 (sub 0)"
+  },
+  "geometries": [
+    {
+      "uuid": "3D6B50B6-D9E0-4F0C-A045-F6D7F6B28E8D",
+      "type": "BoxGeometry",
+      "width": 1,
+      "height": 1,
+      "depth": 1
+    }
+  ],
+  "materials": [
+    {
+      "uuid": "49A91C8F-A0CA-4C7A-BC9F-8E5C5A5C60D3",
+      "type": "MeshBasicMaterial",
+      "color": 16777215,
+      "opacity": 1,
+      "transparent": false,
+      "wireframe": false
+    }
+  ],
+  "textures": [],
+  "object": {
+    "uuid": "08D6E8C8-D8AB-4DD4-ABD4-4B9E4D4B4F99",
+    "type": "Mesh",
+    "name": "Cube",
+    "geometry": "3D6B50B6-D9E0-4F0C-A045-F6D7F6B28E8D",
+    "material": "49A91C8F-A0CA-4C7A-BC9F-8E5C5A5C60D3"
+  }
+}
